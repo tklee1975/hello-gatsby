@@ -19,6 +19,8 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>Hello Gatsby</h1>
+      <hr></hr>
+      <p>First Try</p>
     </main>
   )
 }
