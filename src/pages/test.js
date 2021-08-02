@@ -1,5 +1,4 @@
 import * as React from "react"
-//import "../styles/global.css"   // uncomment to activate global css
 
 // styles
 const pageStyles = {
@@ -15,13 +14,14 @@ const headingStyles = {
 }
 
 // markup
+// This will goto the http://127.0.0.1:5500/public/test/ page 
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>Hello Gatsby</h1>
+      <title>Testing Page</title>
+      <h1 style={headingStyles}>Another Gatsby page</h1>
       <hr></hr>
-      <p>First Try</p>
+      <p>Generate from test.js</p>
     </main>
   )
 }
